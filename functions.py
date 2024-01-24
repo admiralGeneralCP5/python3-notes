@@ -49,7 +49,7 @@ Strings:
     - triple double quotes allows a string to span multiple lines
     - single or double quotes for everything else
     - str() takes input and then returns it as a string
-    - len() returns the number or characters within the string
+    - len() returns the number of characters within the string
     Escape Character:
         - "\\" is the escape character (backslash)
         - using the escape character allows double quotes to be within a string
@@ -83,9 +83,9 @@ Strings:
         - .lower() returns a string that is all lower case
         - .title() returns a string in which the first letter in every word is upper case
         - .strip() returns a string with white spaces removed on both sides
-        - .lstrip() .rstrip() removes white spaces on either the left or righ side
+        - .lstrip() .rstrip() removes white spaces on either the left or right side
         - .find() returns the index of specified characters within the string, -1 if the characters are not there
-        - .replace() 
+        - .replace() will find the first item inputed and then will replace it with the second
 """
     print(info)
 
@@ -111,8 +111,8 @@ Lists:
     - enumerate() returns a tuple with the index and value of the item
 
     Adding/Inserting Items:
-        - .append() add item to the end of the Lists
-        - .insert() inserts an item at any index; example: .insert(3, 'two')  # inserts 'two' at index 3
+        - .append() add item to the end of the lists
+        - .insert() inserts an item at any index; example: .insert(3, 'hello')  # inserts 'hello' at index 3
 
     Removing Items:
         - .pop() removes item at the end of the list unless an index is specified
@@ -173,13 +173,13 @@ Dictionaries:
         - using list() will clean up the results
 
     .keys():
-        - returns alist of all of the keys
+        - returns a list of all of the keys
         - using list() will clean up the results
 
     .pop():
         - removes a key value pair
         - will take the value of the key being removed
-          example: value = dictTwo.pop('y')  # 'y' will be removed and 'value' will be assigned its value
+          example: value = dictTwo.pop('y')  # 'y' will be removed and its value will be assigned to 'value'
 """
     print(info)
 
