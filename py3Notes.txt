@@ -52,9 +52,9 @@ Basic Data Types:
             - .lower() returns a string that is all lower case
             - .title() returns a string in which the first letter in every word is upper case
             - .strip() returns a string with white spaces removed on both sides
-            - .lstrip() .rstrip() removes white spaces on either the left or righ side
+            - .lstrip() .rstrip() removes white spaces on either the left or right side
             - .find() returns the index of specified characters within the string, -1 if the characters are not there
-            - .replace() 
+            - .replace()  will find the first item inputed and then will replace it with the second
 
 
     Booleans:

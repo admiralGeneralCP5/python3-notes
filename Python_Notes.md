@@ -91,6 +91,9 @@ print("%s is %d years old." % (name, age))
 .find()  # returns the index of specified characters within the string, -1 if the character are not there
 
 .replace()
+
+.split()  # splits a string by the character specified in the ()
+          # returns a list of strings
 ```
 
 ---
@@ -113,7 +116,7 @@ bool()  # takes input and returns the boolean value
 numbers = [1, 2, 3, 4]
 ```
 * values are separated by commas
-* items are sorted by index starting at 0
+* items are ordered by index starting at 0
 ```py
 enumerate()  # returns a tuple with the index and value of the item
 ```
@@ -173,7 +176,7 @@ dictB = dict(x=1, y=2)
 ```
 * both methods shown in the example above create the same dictionary
 * items cannot be looked up by numerical indexes
-* keys are used to acces values
+* keys are used to access values
 ```py
 dictA['x']
 # returns: 1
@@ -226,7 +229,11 @@ dictB.pop('y')  # 'y' will be removed and its value will be assigned to 'value'
 ```py
 20 / 3 = 6.7
 20 // 3 = 6
-20 % = 2
+20 % 3 = 2
+
+21 / 3 = 7.0
+21 // 3 = 7
+21 % 3 = 0
 ```
 
 ### Exponant:

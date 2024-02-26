@@ -1,11 +1,8 @@
 # Python3 Notes:
-### This is a collection of notes pertaining to fundamental Python concepts, and is intended as a beginner's reference guide. 
+
+This is my reference sheet for python. It contains some examples, helpful functions and general information.
+The md file is best for reference in a browser while the pdf is best to download.
 
 ---
 
-### Options:
-The pdf contains all of the notes with some examples with syntax highlighting. This option is easiest to read. The alternative is to use main.py to access notes through the terminal. The notes can be filtered and then printed to the screen. It's reccommended to use the pdf, but main.py can be a convienient option when working in the terminal. 
-
----
-
-The markdown file used to create the pdf is also included so that you can add your own information. To get the same results when creating the pdf use Joplin.
+You may take these notes and modify them. If you want to convert a md file to a pdf and get the same results, use Joplin.
