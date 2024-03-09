@@ -1,3 +1,17 @@
+## Table of Contents:
+
+1. [Integers](#integers)
+2. [Floats](#floats)
+3. [Strings](#strings)
+4. [Booleans](#booleans)
+5. [Lists](#lists)
+6. [Tuples](#tuples)
+7. [Dictionaries](#dictionaries)
+8. [Math](#math)
+9. [Operators](#operators)
+
+<br>
+
 ## Integers:
 * any whole number positive or negative
 ```py
@@ -35,12 +49,12 @@ len()  # returns the number of characters within the string
 ### Escape Character:
 * "\\" is the escape character (backslash)
 * using the escape character allows doulble quotes to be within a string (among other things)
+* \n adds a new line
 
 ```py
 print("\"Hello there.\"")
 # output = "Hello there."
 ```
-* \n adds a new line
 
 ### Formatted String:
 
@@ -56,25 +70,27 @@ print(f"Hello {name}.")
 ### .format String:
 * older way to use variables and expressions within a string
 
+* the { } can be left empty or indexes can be used as seen in the example above
+* using indexes allows a variable to be used multiple times
+
 ```py
 name = 'John'
 age = 42
 print("{0} is {1} years old.".format(name, age))
 #  output: John is 42 years old. 
 ```
-* the { } can be left empty or indexes can be used as seen in the example above
-* using indexes allows a variable to be used multiple times
 
 ### % Formating:
 * another old way to use variables and expression within a string
+* %s for strings
+* %d for integers
+
 ```py
 name = 'John'
 age = 42
 print("%s is %d years old." % (name, age))
 #  output: John is 42 years old.
 ```
-* %s for strings
-* %d for integers
 
 ### Methods:
 ```py
@@ -101,22 +117,24 @@ print("%s is %d years old." % (name, age))
 ## Booleans:
 
 * true or false
+* 0 is false while all other numbers are true
+* empty strings and 'None' are also false
+
 ```py
 bool()  # takes input and returns the boolean value
 ```
-* 0 is false while all other numbers are true
-* empty strings and 'None' are also false
 
 ---
 
 ## Lists:
 
 * are defined using [ ]
+* values are separated by commas
+* items are ordered by index starting at 0
+
 ```py
 numbers = [1, 2, 3, 4]
 ```
-* values are separated by commas
-* items are ordered by index starting at 0
 ```py
 enumerate()  # returns a tuple with the index and value of the item
 ```
@@ -156,13 +174,14 @@ enumerate()  # returns a tuple with the index and value of the item
 ## Tuples:
 
 * can be defined with ( ) or a trailing ,
+* items cannot be added or removed; immutable
+* can be concatenated
+* items are indexed
+
 ```py
 tupleA = (2, 3)
 tupleB = 4, 5,
 ```
-* items cannot be added or removed; immutable
-* can be concatenated
-* items are indexed
 
 ---
 
@@ -222,6 +241,15 @@ dictB.pop('y')  # 'y' will be removed and its value will be assigned to 'value'
 
 ## Math:
 
+### Place Value Seperation:
+* underscores are used to seperate place values instead of commas or periods
+* makes number easier to read
+```py
+58_120_000
+# same value as
+58120000
+```
+
 ### Division:
 * /  returns a float
 * // returns an integer
@@ -258,22 +286,55 @@ abs()  # returns the absolute value
 ## Operators:
 
 ### Logical:
-* and 
-* or 
-* not
+```py
+not
+and
+or 
+
+# order of operations is in this order
+# 'not' operations will be performed first
+```
 
 ### Comparison:
-```txt
+```py
 <
 <=
 >
 >=
-== equal to
-!= not equal to
+==  # equal to
+!=  # not equal to
 ```
 #### Chained Comparison:
 ```py
-18 <= age < 65
+18 <= value < 65
 #  this would replace:
-age >= 18 and age < 65
+value >= 18 and value < 65
+```
+
+### Augmented Assignment Operators:
+```py
++=
+-=
+*=
+/=
+//=
+%=
+```
+
+With normal operators:
+```py
+number = 6
+
+number = number + 4
+
+# number now equals 10
+```
+
+With augmented operators:
+```py
+number = 6
+
+number += 4
+
+# number now equals 10
 ```

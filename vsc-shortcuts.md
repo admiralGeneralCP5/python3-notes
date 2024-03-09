@@ -1,5 +1,5 @@
 | Command | Name |
-| --- | --- |
+| :---: | ---: |
 | ⇧ | shift |
 | ⌥ | option |
 | ⌃ | control |
@@ -32,4 +32,3 @@
 | duplicate line (cursor moves with duplication) | ⇧ ⌥ ↓ | ⇧  alt ↓ |
 | insert line above (cursor moves to new line) | ⇧ ⌘ ⏎ | ⇧ ⌃ ⏎ |
 | insert line below (cursor moves to new line) | ⌘ ⏎ | ⌃ ⏎ |
-|
