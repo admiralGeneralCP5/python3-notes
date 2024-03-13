@@ -232,7 +232,7 @@ dictB.get('w', 0)  # if 'w' does not exist, '0' will be returned
 
 ```py
 .pop()
-#  removes a key vlaue pair
+#  removes a key value pair
 #  will take the value of the key being removed
 dictB.pop('y')  # 'y' will be removed and its value will be assigned to 'value'
 ```

@@ -21,9 +21,7 @@
 | toggle commenting a line | ⌘ / | ⌃ / |
 | toggle between editor and terminal | | | ⌃ ` |
 | go to the start of the line | ⌘ ← | | home |
-| |  | | fn ← |
 | go to the end of the line | ⌘ → | | end |
-| |  | | fn → |
 | go to the start of the file | fn ↑ | ⌃ home | page up |
 | go to the end of the file | fn ↓ | ⌃ end | page down |
 | move current line up | ⌥ ↑ | alt ↑ |
