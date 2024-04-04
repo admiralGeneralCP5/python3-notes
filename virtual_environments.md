@@ -42,7 +42,7 @@ python -m venv <environment_name>
 
 #### Activate an environment:
 ```
-source <environment_name>/Scripts/activate
+<environment_name>\Scripts\activate
 ```
 
 #### Deactivate an evironment:
